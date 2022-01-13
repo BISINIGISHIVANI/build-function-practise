@@ -4,7 +4,7 @@ Easy
 Example:
 Input: power(2,3) ––> Output: 8*/
 
-const power=(a,b) =>math.pow(a,b);
+const power=(a,b) =>Math.pow(a,b);
 power(2,3)
 
 /*
@@ -21,7 +21,7 @@ Example:
 Input: noOfWords(We are neoGrammers) ––> Output: 3
 */
 const noOfWords=n=>n.split(" ").length;
-noOfWords("We are neoGrammers")
+noOfWords("We are neoGrammers");
 /*
 4.Given n numbers, your function should return the minimum of them all. The number of parameters won't be accepted from user.
 Example:
