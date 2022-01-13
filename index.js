@@ -5,7 +5,7 @@ Example:
 Input: power(2,3) ––> Output: 8*/
 
 const power=(a,b) =>Math.pow(a,b);
-power(2,3)
+console.log(power(2,3))
 
 /*
 2.Given length of a regular hexagon, your function should return area of the hexagon.
@@ -43,3 +43,13 @@ findMax(3,5,9,1);
 /*
 6.Given three angles of a triange, your function should return if it is a scalene, isosceles, equilateral triangle or not a triangle at all. Example:
 Input: typeOfTriangle(30, 60, 90) ––> Output: Scalene Triangle */
+function jo(a,b,c){
+    if(a==b&&b==c){
+    return 'Equilateral';
+    }else if(a==b||b==c||a==c){
+    return "Isosceles";
+    }else{
+    return "scalene";
+    }
+}
+console.log(jo(30,60,90))
