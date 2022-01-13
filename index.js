@@ -12,3 +12,7 @@ power(2,3)
 Example:
 Input: areaOfHexagon(10) ––> Output: 259.80
 */
+
+const areaOfHexagon =a => {
+    
+}
